@@ -1,0 +1,31 @@
+#ifndef LOCALIZATION_H
+#define LOCALIZATION_H
+
+#define LANG_RU 1
+#define LANG_EN 0
+
+#define LANGUAGE LANG_RU
+
+#if LANGUAGE == LANG_RU
+    #define TEXT_SETTINGS "Настройки"
+    #define TEXT_MENU "Меню"
+    #define TEXT_SAVE "Сохранить"
+    #define TEXT_CANCEL "Отмена"
+    #define TEXT_OK "ОК"
+    #define TEXT_ERROR "Ошибка"
+    #define TEXT_SUCCESS "Успешно"
+    #define TEXT_LOAD "Загрузить"
+    #define TEXT_EXIT "Выход"
+#else
+    #define TEXT_SETTINGS "Settings"
+    #define TEXT_MENU "Menu"
+    #define TEXT_SAVE "Save"
+    #define TEXT_CANCEL "Cancel"
+    #define TEXT_OK "OK"
+    #define TEXT_ERROR "Error"
+    #define TEXT_SUCCESS "Success"
+    #define TEXT_LOAD "Load"
+    #define TEXT_EXIT "Exit"
+#endif
+
+#endif // LOCALIZATION_H
